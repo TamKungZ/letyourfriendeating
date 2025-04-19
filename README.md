@@ -2,7 +2,7 @@
 
 **Version:** 1.0.3
 **Minecraft Version:** 1.16.x – 1.21.x
-**Mod Loader:** Fabric / Quilt / Forge / NeoForge
+**Mod Loader:** Fabric / Quilt / Forge / NeoForge / Spigot Plugin
 **Author:** [TamKungZ_](https://linktr.ee/TamKungZ_)
 
 ### **Open source**
