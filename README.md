@@ -10,6 +10,8 @@
 **Minecraft Version:** -
 **Mod Loader:** -
 
+[![CurseForge](https://img.shields.io/badge/CurseForge-Page-orange)](https://www.curseforge.com/minecraft/mc-mods/letyourfriendeating)
+[![CurseForge](https://img.shields.io/badge/Modrinth-Page-green)](https://modrinth.com/mod/let-your-friend-eating!)
 ---
 
 ## About
@@ -51,8 +53,8 @@ Newer versions (like `1.0.3`) may contain experimental or risky features — use
 
 ---
 
-## 🔗 Links
+## Links
 
 - GitHub: [github.com/TamKungZ](https://github.com/TamKungZ)
-- CurseForge: [CurseForge_ Projects](https://legacy.curseforge.com/members/tamkungz_/projects)
+- CurseForge: [CurseForge_ Projects](https://www.curseforge.com/minecraft/mc-mods/letyourfriendeating)
 - Modrinth: [Modrinth Project](https://modrinth.com/mod/let-your-friend-eating!)
