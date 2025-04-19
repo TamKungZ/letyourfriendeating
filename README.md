@@ -54,4 +54,5 @@ Newer versions (like `1.0.3`) may contain experimental or risky features — use
 ## 🔗 Links
 
 - GitHub: [github.com/TamKungZ](https://github.com/TamKungZ)
-- CurseForge: [TamKungZ_ Projects](https://legacy.curseforge.com/members/tamkungz_/projects)
+- CurseForge: [CurseForge_ Projects](https://legacy.curseforge.com/members/tamkungz_/projects)
+- Modrinth: [Modrinth Project](https://modrinth.com/mod/let-your-friend-eating!)
