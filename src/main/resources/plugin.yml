@@ -1,0 +1,9 @@
+name: LetYourFriendEating
+version: 1.0
+main: th.tamkungz.letyourfriendeating.Main
+api-version: 1.20
+
+commands:
+  feedfriend:
+    description: Toggle feeding or view feed stats
+    usage: /<command> <toggle|stats> [player]
