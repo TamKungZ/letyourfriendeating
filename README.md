@@ -32,14 +32,18 @@ Great for roleplaying servers, adventure maps, or just messing around with your 
 
 ## Version Feature Matrix
 
-| Version   | Feed | Food Effects | Sound | Particle |
-|-----------|------|--------------|-------|----------|
-| **1.0.0** | ✅   | ❌           | ❌    | ❌       |
-| **1.0.1** | ✅   | ✅           | ✅    | ✅       |
-| **1.0.2** | ✅   | ✅           | ✅    | ✅       |
-| **1.0.3** | ✅   | ✅           | ✅    | ✅       |
-| **Beta**  | ✅   | ❌           |⚠️     | ⚠️       |
-| **Alpha** | ⚠️   | ❌           | ⚠️    | ❌       |
+<div align="center">
+  
+| Version   | Feed | Food Effects | Sound | Particle | Command |
+|-----------|:----:|:------------:|:-----:|:--------:|:-------:|
+| **1.0.0** |✅|❌|❌|❌|❌|
+| **1.0.1** |✅|✅|✅|✅|❌|
+| **1.0.2** |✅|✅|✅|✅|❌|
+| **1.0.3** |✅|✅|✅|✅|✅|
+| **Beta**  |✅|❌|⚠️|⚠️|⚠️|
+| **Alpha** |⚠️|❌|⚠️|❌|⚠️|
+
+</div>
 
 ---
 
