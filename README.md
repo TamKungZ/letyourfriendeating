@@ -30,6 +30,17 @@ Great for roleplaying servers, adventure maps, or just messing around with your 
 -  Automatically syncs eating animation & food effects
 -  Optional feedback messages (can be customized/disabled)
 
+## Version Feature Matrix
+
+| Version   | Feed | Food Effects | Sound | Particle |
+|-----------|------|--------------|-------|----------|
+| **1.0.0** | ✅   | ❌           | ❌    | ❌       |
+| **1.0.1** | ✅   | ✅           | ✅    | ✅       |
+| **1.0.2** | ✅   | ✅           | ✅    | ✅       |
+| **1.0.3** | ✅   | ✅           | ✅    | ✅       |
+| **Beta**  | ✅   | ❌           |⚠️     | ⚠️       |
+| **Alpha** | ⚠️   | ❌           | ⚠️    | ❌       |
+
 ---
 
 ## License
