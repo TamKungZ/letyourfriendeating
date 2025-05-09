@@ -1,0 +1,112 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+    }
+}
+
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+
+version = '1.0.3'
+group = 'th.tamkungz.letyourfriendeating'
+archivesBaseName = 'letyourfriendeating'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
+minecraft {
+    mappings channel: 'official', version: '1.16.5'
+    
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                letyourfriendeating {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                letyourfriendeating {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            args '--mod', 'letyourfriendeating', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+
+            mods {
+                letyourfriendeating {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+// repositories {
+//    maven {
+//        url "https://cursemaven.com"
+//        content {
+//            includeGroup "curse.maven"
+//        }
+//    }
+//}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.39'
+    
+    // Drop Rate API (1.16.5 version)
+    // implementation fg.deobf("curse.maven:drop-rate-api-1208468:6249868")
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "letyourfriendeating",
+            "Specification-Vendor": "letyourfriendeatingsareus",
+            "Specification-Version": "1",
+            "Implementation-Title": project.name,
+            "Implementation-Version": "${version}",
+            "Implementation-Vendor": "letyourfriendeatingsareus",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}

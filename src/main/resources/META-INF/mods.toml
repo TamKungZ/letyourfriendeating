@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+
+[[mods]]
+modId="letyourfriendeating"
+version="${file.jarVersion}"
+displayName="Let Your Friend Eating!"
+logoFile="lyfe.png"
+credits="Developed by TamKungZ_"
+authors="TamKungZ_"
+description=''' 
+Allows players to feed each other.
+'''
+
+[[dependencies.letyourfriendeating]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.letyourfriendeating]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.2,1.16.5]"
+    ordering="NONE"
+    side="BOTH"
