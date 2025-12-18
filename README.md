@@ -1,4 +1,4 @@
-# Let Your Friend Eating! 🍽️
+# Let Your Friend Eating! 🍽️ [ Not Use ]
 
 **Version:** 1.0.3
 **Minecraft Version:** 1.16.x – 1.21.x
