@@ -12,8 +12,8 @@ This work has changed license terms over time. Please refer to the version you a
 | Period | License |
 |---|---|
 | Before May 10, 2025 | MIT License |
-| May 10, 2025 – [insert new change date] | CC BY-NC-ND 4.0 |
-| From [insert new change date] onward | **All Rights Reserved** (this document) |
+| May 10, 2025 – September 1, 2026 | CC BY-NC-ND 4.0 |
+| From September 1, 2026 onward | **All Rights Reserved** (this document) |
 
 Versions released under a previous license remain governed by that license and are not retroactively affected by later changes. More info on the previous license: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
@@ -43,7 +43,7 @@ Without prior written permission from the author, you may **not**:
 
 ## 4. Requesting Permission
 
-If you'd like to fork, port to another mod loader, translate, or build on top of this mod in a way not covered above, please reach out first: **[insert contact — Discord/email/GitHub issue link]**. Most reasonable requests (translations, ports, collaborations) are welcome — this policy exists to prevent silent copying/rebranding, not to block community involvement.
+If you'd like to fork, port to another mod loader, translate, or build on top of this mod in a way not covered above, please reach out first: **https://github.com/TamKungZ/letyourfriendeating/issues**. Most reasonable requests (translations, ports, collaborations) are welcome — this policy exists to prevent silent copying/rebranding, not to block community involvement.
 
 ## 5. No Warranty
 
@@ -55,4 +55,4 @@ Use of this mod is also subject to Mojang's End User License Agreement and the t
 
 ---
 
-*Last updated: [insert date]*
+*Last updated: September 1, 2026*
